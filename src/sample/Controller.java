@@ -44,7 +44,7 @@ public class Controller {
     void initialize() {
         getData.setOnAction(event -> {
             String getUserCity = city.getText().trim();
-            String output = getUrlContent("https://history.openweathermap.org/data/2.5/aggregated/year?q=" + getUserCity + "&appid=96d550f17e46bffee6d2bd2eb98dab68");
+            String output = getUrlContent("https://history.openweathermap.org/data/2.5/aggregated/year?q=" + getUserCity + "&appid=key");
             System.out.println("Все работает!");
         });
     }
